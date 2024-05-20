@@ -16,6 +16,9 @@ import React, { Component } from "react";
       <li class="nav-item active">
         <a class="nav-link" href="/addProduct">New Product</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/signInUp">SignUp</a>
+      </li>
     </ul>
   </div>
 </nav>
