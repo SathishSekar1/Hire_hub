@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mltradingwebsite-dev-eba12-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335631648:role/amplify-mltradingwebsite-dev-eba12-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335631648:role/amplify-mltradingwebsite-dev-eba12-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-mltradingwebsite-dev-eba12-deployment",
+      "UnauthRoleName": "amplify-mltradingwebsite-dev-eba12-unauthRole",
+      "StackName": "amplify-mltradingwebsite-dev-eba12",
+      "StackId": "arn:aws:cloudformation:eu-north-1:730335631648:stack/amplify-mltradingwebsite-dev-eba12/4adcd8d0-16af-11ef-ad5b-0a834ba43d76",
+      "AmplifyAppId": "d18mxarc7qyjlw"
+    }
+  },
+  "auth": {
+    "mltradingwebsite90e0d6e3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mltradingwebsite-dev-eba12-deployment/amplify-cfn-templates/auth/mltradingwebsite90e0d6e3-cloudformation-template.json",
+        "logicalId": "authmltradingwebsite90e0d6e3"
+      },
+      "lastPushTimeStamp": "2024-05-20T13:49:32.094Z",
+      "output": {
+        "UserPoolId": "eu-north-1_C7YEkTfqu",
+        "AppClientIDWeb": "aauv20tpfp9vr218uiqm8tthn",
+        "AppClientID": "61aa0eh6fvcbduas1uf9gra33v",
+        "IdentityPoolId": "eu-north-1:c521f21d-feb7-4b3d-bf84-2122a5d5f904",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:730335631648:userpool/eu-north-1_C7YEkTfqu",
+        "IdentityPoolName": "mltradingwebsite90e0d6e3_identitypool_90e0d6e3__dev",
+        "UserPoolName": "mltradingwebsite90e0d6e3_userpool_90e0d6e3"
+      },
+      "lastPushDirHash": "RBd/VhAXHE7CfIYLAV1iBEQ3G2s="
+    }
+  }
+}

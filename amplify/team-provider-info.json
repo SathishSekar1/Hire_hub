@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mltradingwebsite-dev-eba12-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335631648:role/amplify-mltradingwebsite-dev-eba12-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335631648:role/amplify-mltradingwebsite-dev-eba12-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-mltradingwebsite-dev-eba12-deployment",
+      "UnauthRoleName": "amplify-mltradingwebsite-dev-eba12-unauthRole",
+      "StackName": "amplify-mltradingwebsite-dev-eba12",
+      "StackId": "arn:aws:cloudformation:eu-north-1:730335631648:stack/amplify-mltradingwebsite-dev-eba12/4adcd8d0-16af-11ef-ad5b-0a834ba43d76",
+      "AmplifyAppId": "d18mxarc7qyjlw"
+    },
+    "categories": {
+      "auth": {
+        "mltradingwebsite90e0d6e3": {}
+      }
+    }
+  }
+}
